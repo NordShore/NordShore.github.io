@@ -1,0 +1,94 @@
+﻿/* News Page */
+
+.newsContainer {
+    position: absolute;
+    width: 34vw;
+    height: 43.5vh;
+    background-size: 34vw 43.5vh;
+    background-color: black;
+    opacity: 0.4;
+    border-radius: 20px;
+}
+
+.monthNewsText {
+    position: absolute;
+    top: 67vh;
+    font-size: 20px;
+    color: white;
+    width: 29vw;
+    padding: 4px;
+}
+
+/* Sign-Up Page */
+
+.textBox {
+    position: absolute;
+    width: 20vw;
+    height: 4vh;
+    background-color: #1d69b5;
+    color: yellow;
+    border-radius: 7px;
+    border-color: black;
+}
+
+.credentialInfo {
+    position: absolute;
+    top: 72vh;
+    left: 44.4vw;
+    background-color: transparent;
+    border-color: transparent
+}
+
+.additionalInfomation {
+    position: absolute;
+    top: 75.5vh;
+    left: 33vw;
+    background-color: transparent;
+    width: 30vw;
+    height: 15vh;
+    border-radius: 20px;
+    padding: 6px;
+    font-size: 13px;
+    color: black;
+}
+
+.forgotten {
+    position: absolute;
+    top: 53vh;
+    left: 89.7vh;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+::placeholder {
+    color: yellow;
+}
+
+/* E-Commerce */
+
+.amazonButton {
+    background-image: url('../images/amazonimage.png');
+    position: absolute;
+    top: 34vh;
+    left: 58vh;
+    width: 90px;
+    height: 90px;
+    background-size: 90px 90px;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.subText:focus{
+    outline: 0
+}
+.amazonButton:hover {
+    background-image: url('../images/amazonimagehover.png');
+    position: absolute;
+    top: 34vh;
+    left: 58vh;
+    width: 90px;
+    height: 90px;
+    background-size: 90px 90px;
+    background-color: transparent;
+    border-color: transparent;
+}
